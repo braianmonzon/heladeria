@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Body */
+/* Header */
+/* 100vh */
+
+header{
+    min-height: 10vh;
+    background-color:brown;
+}
+
+nav{
+    height:8vh ;
+    padding: 20px;
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: orangered;
+    background-color: black;
+    font-size: 15px;
+    margin: 3px;
+    padding: 8px;
+    border: 3px solid orangered;
+    border-radius: 30px;box-shadow: -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.logo{
+    object-fit: contain;
+    width: 70px;
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 0px;
+    float: inline-end;
+}
+
+/* Main */
+
+main{
+    min-height: 85vh;
+    background-color: orangered;
+}
+
+h1{ font-size: 40px;
+    margin-left: 530px; 
+}
+
+h2{ margin-left: 590px;
+
+}
+
+.imagen{
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 600px;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin-block-start: -80px;
+}
+
+.txt{
+    font-size: 25px;
+    padding-left: 150px;
+    margin-block-start: 60px;
+}
+
+
+.baner{
+    width: 800px;
+    height: 150px;
+    margin-left: 240px;
+    padding: 0px;
+    border-radius: 30px;
+    border: 3px solid white;
+}
+
+.segundo{
+    margin-left: 520px;
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.n2{
+    font-size: 20px;
+    float: right;
+    padding: 40px;
+    margin-block-start: 10px;
+}
+
+.ultimo{
+    margin-left: 250px;
+    width: 800px;
+    height: 200px;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+.final{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 90px;
+}
+
+.email{
+    font-size: 25px;
+    margin-block-start: 40px;
+    padding-left: 250px;
+}
+
+.tel{
+    font-size: 25px;
+    padding-left: 800px;
+    margin-block: -23px;
+}
+
+/* Footer */
+
+footer{
+    min-height: 5vh;
+    background-color: brown;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 540px;
+}
